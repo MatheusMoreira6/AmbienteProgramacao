@@ -21,6 +21,10 @@
     alias sshlocal='ssh genesis@192.168.100.18'
 ####
     alias producao='ssh gen@44.212.150.104'
+####
+	alias vpnup='hotspotshield connect BR && hotspotshield status'
+####
+	alias vpndown='hotspotshield disconnect && hotspotshield status'
 
 ## Aplicações e Dependências
 
