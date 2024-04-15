@@ -230,6 +230,9 @@
 #### GitHub Copilot Chat
 	ext install GitHub.copilot-chat
 
+#### Commit Message Editor
+	ext install adam-bender.commit-message-editor
+
 ## Visual Studio Code | Configurações (Ctrl + Shift + P):
 
 #### Idioma:
