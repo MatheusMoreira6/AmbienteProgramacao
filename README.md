@@ -176,8 +176,8 @@
 #### Portuguese (Brazil) Language Pack:
     ext install MS-CEINTL.vscode-language-pack-pt-BR
 
-#### VS Code Icons:
-    ext install vscode-icons-team.vscode-icons
+#### Atom Material Icons:
+    ext install AtomMaterial.a-file-icon-vscode
 
 #### Dracula Official:
     ext install dracula-theme.theme-dracula
