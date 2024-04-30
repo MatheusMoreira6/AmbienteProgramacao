@@ -181,9 +181,6 @@
 
 #### Dracula Official:
     ext install dracula-theme.theme-dracula
-    
-#### Live Share
-    ext install MS-vsliveshare.vsliveshare
 
 #### Docker:
     ext install ms-azuretools.vscode-docker
@@ -211,6 +208,12 @@
 
 #### IntelliCode:
     ext install VisualStudioExptTeam.vscodeintellicode
+
+#### Bootstrap IntelliSense:
+	ext install hossaini.bootstrap-intellisense
+
+#### Bootstrap 5 Quick Snippets
+	ext install AnbuselvanRocky.bootstrap5-vscode
 
 #### Colorize:
     ext install kamikillerto.vscode-colorize
