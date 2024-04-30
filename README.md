@@ -243,58 +243,57 @@
     
 ## Visual Studio Code | Configurações (Usuário - settings.json):
 	{
-		"workbench.iconTheme": "vscode-icons",
-		"workbench.colorTheme": "Dracula",
-		"editor.bracketPairColorization.enabled": true,
-		"editor.minimap.enabled": false,
-		"editor.guides.bracketPairs": "active",
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-		"diffEditor.ignoreTrimWhitespace": false,
-		"explorer.confirmDelete": false,
-		"files.autoSave": "onFocusChange",
-		"files.encoding": "iso88591",
-		"git.confirmSync": false,
-		"prettier.tabWidth": 4,
-		"vsicons.dontShowNewVersionMessage": true,
-		"auto-close-tag.enableAutoCloseTag": true,
-		"auto-close-tag.enableAutoCloseSelfClosingTag": true,
-		"auto-close-tag.insertSpaceBeforeSelfClosingTag": false,
-		"files.associations": {
-			"*.php": "php"
-		},
-		"[php]": {
-			"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-		},
-		"auto-rename-tag.activationOnLanguage": [
-			"html",
-			"xml",
-			"php",
-			"javascript"
-		],
-		"auto-close-tag.activationOnLanguage": [
-			"xml",
-			"php",
-			"blade",
-			"ejs",
-			"jinja",
-			"javascript",
-			"javascriptreact",
-			"typescript",
-			"typescriptreact",
-			"plaintext",
-			"markdown",
-			"vue",
-			"liquid",
-			"erb",
-			"lang-cfml",
-			"cfml",
-			"HTML (Eex)"
-		],
-		"gitlens.gitCommands.skipConfirmations": [
-			"fetch:command",
-			"switch:command"
-		],
-		"git.openRepositoryInParentFolders": "always"
+	    "workbench.iconTheme": "a-file-icon-vscode",
+	    "workbench.colorTheme": "Dracula",
+	    "editor.bracketPairColorization.enabled": true,
+	    "editor.minimap.enabled": false,
+	    "editor.guides.bracketPairs": "active",
+	    "editor.defaultFormatter": "esbenp.prettier-vscode",
+	    "diffEditor.ignoreTrimWhitespace": false,
+	    "explorer.confirmDelete": false,
+	    "files.autoSave": "onFocusChange",
+	    "files.encoding": "iso88591",
+	    "git.confirmSync": false,
+	    "prettier.tabWidth": 4,
+	    "auto-close-tag.enableAutoCloseTag": true,
+	    "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+	    "auto-close-tag.insertSpaceBeforeSelfClosingTag": false,
+	    "files.associations": {
+	        "*.php": "php"
+	    },
+	    "[php]": {
+	        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	    },
+	    "auto-rename-tag.activationOnLanguage": [
+	        "html",
+	        "xml",
+	        "php",
+	        "javascript"
+	    ],
+	    "auto-close-tag.activationOnLanguage": [
+	        "xml",
+	        "php",
+	        "blade",
+	        "ejs",
+	        "jinja",
+	        "javascript",
+	        "javascriptreact",
+	        "typescript",
+	        "typescriptreact",
+	        "plaintext",
+	        "markdown",
+	        "vue",
+	        "liquid",
+	        "erb",
+	        "lang-cfml",
+	        "cfml",
+	        "HTML (Eex)"
+	    ],
+	    "gitlens.gitCommands.skipConfirmations": [
+	        "fetch:command",
+	        "switch:command"
+	    ],
+	    "git.openRepositoryInParentFolders": "always"
 	}
 
 ## Visual Studio Code | Configurações (Extensões):
