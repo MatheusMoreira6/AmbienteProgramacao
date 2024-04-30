@@ -173,26 +173,8 @@
 
 ## Visual Studio Code | Extensões (Ctrl+P):
 
-#### Portuguese (Brazil) Language Pack:
-    ext install MS-CEINTL.vscode-language-pack-pt-BR
-
 #### Atom Material Icons:
     ext install AtomMaterial.a-file-icon-vscode
-
-#### Dracula Official:
-    ext install dracula-theme.theme-dracula
-
-#### Docker:
-    ext install ms-azuretools.vscode-docker
-    
-#### Dev Containers:
-    ext install ms-vscode-remote.remote-containers
-
-#### GitLens:
-    ext install eamodio.gitlens
- 
-#### Git Graph
-    ext install mhutchie.git-graph
 
 #### Auto Close Tag:
     ext install formulahendry.auto-close-tag
@@ -200,14 +182,8 @@
 #### Auto Rename Tag:
     ext install formulahendry.auto-rename-tag
 
-#### PHP Intelephense:
-    ext install bmewburn.vscode-intelephense-client
-    
-#### Prettier - Code formatter:
-    ext install esbenp.prettier-vscode
-
-#### IntelliCode:
-    ext install VisualStudioExptTeam.vscodeintellicode
+#### Bookmarks
+	ext install alefragnani.Bookmarks
 
 #### Bootstrap IntelliSense:
 	ext install hossaini.bootstrap-intellisense
@@ -218,14 +194,20 @@
 #### Colorize:
     ext install kamikillerto.vscode-colorize
 
-#### Bookmarks
-	ext install alefragnani.Bookmarks
+#### Commit Message Editor
+	ext install adam-bender.commit-message-editor
 
-#### Output Colorizer:
-    ext install IBM.output-colorizer
-	
-#### VS Code PDF
-	ext install tomoki1207.pdf
+#### Dev Containers:
+    ext install ms-vscode-remote.remote-containers
+
+#### Docker:
+    ext install ms-azuretools.vscode-docker
+
+#### Dracula Official:
+    ext install dracula-theme.theme-dracula
+
+#### Git Graph
+    ext install mhutchie.git-graph
 
 #### GitHub Copilot
 	ext install GitHub.copilot
@@ -233,8 +215,26 @@
 #### GitHub Copilot Chat
 	ext install GitHub.copilot-chat
 
-#### Commit Message Editor
-	ext install adam-bender.commit-message-editor
+#### GitLens:
+    ext install eamodio.gitlens
+
+#### IntelliCode:
+    ext install VisualStudioExptTeam.vscodeintellicode
+
+#### Output Colorizer:
+    ext install IBM.output-colorizer
+
+#### PHP Intelephense:
+    ext install bmewburn.vscode-intelephense-client
+
+#### Portuguese (Brazil) Language Pack:
+    ext install MS-CEINTL.vscode-language-pack-pt-BR
+
+#### Prettier - Code formatter:
+    ext install esbenp.prettier-vscode
+
+#### VS Code PDF
+	ext install tomoki1207.pdf
 
 ## Visual Studio Code | Configurações (Ctrl + Shift + P):
 
