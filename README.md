@@ -293,7 +293,9 @@
 	        "fetch:command",
 	        "switch:command"
 	    ],
-	    "git.openRepositoryInParentFolders": "always"
+	    "git.openRepositoryInParentFolders": "always",
+	    "github.copilot.editor.enableAutoCompletions": true,
+	    "vsicons.dontShowNewVersionMessage": true
 	}
 
 ## Visual Studio Code | Configurações (Extensões):
