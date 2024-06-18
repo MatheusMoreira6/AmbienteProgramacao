@@ -252,7 +252,7 @@
 	    "diffEditor.ignoreTrimWhitespace": false,
 	    "explorer.confirmDelete": false,
 	    "files.autoSave": "onFocusChange",
-	    "files.encoding": "iso88591",
+	    "files.encoding": "utf8",
 	    "git.confirmSync": false,
 	    "prettier.tabWidth": 4,
 	    "auto-close-tag.enableAutoCloseTag": true,
