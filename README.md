@@ -118,7 +118,7 @@
     npm install ssh2
 
 #### PostgreSQL
-    sudo apt install postgresql
+    sudo apt install postgresql postgresql-contrib
 
 #### PgAdmin
     curl -fsS https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /usr/share/keyrings/packages-pgadmin-org.gpg
