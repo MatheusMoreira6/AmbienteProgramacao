@@ -188,9 +188,6 @@
 #### Bootstrap IntelliSense:
 	ext install hossaini.bootstrap-intellisense
 
-#### Bootstrap 5 Quick Snippets
-	ext install AnbuselvanRocky.bootstrap5-vscode
-
 #### Colorize:
     ext install kamikillerto.vscode-colorize
 
