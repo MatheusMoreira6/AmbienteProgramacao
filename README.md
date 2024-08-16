@@ -241,7 +241,7 @@
 ## Visual Studio Code | Configurações (Usuário - settings.json):
 	{
 	    "workbench.iconTheme": "a-file-icon-vscode",
-	    "workbench.colorTheme": "Dracula",
+	    "workbench.colorTheme": "Dracula Theme",
 	    "editor.bracketPairColorization.enabled": true,
 	    "editor.minimap.enabled": false,
 	    "editor.guides.bracketPairs": "active",
@@ -251,6 +251,7 @@
 	    "files.autoSave": "onFocusChange",
 	    "files.encoding": "utf8",
 	    "git.confirmSync": false,
+	    "editor.tabSize": 4,
 	    "prettier.tabWidth": 4,
 	    "auto-close-tag.enableAutoCloseTag": true,
 	    "auto-close-tag.enableAutoCloseSelfClosingTag": true,
@@ -292,7 +293,10 @@
 	    ],
 	    "git.openRepositoryInParentFolders": "always",
 	    "github.copilot.editor.enableAutoCompletions": true,
-	    "vsicons.dontShowNewVersionMessage": true
+	    "window.customTitleBarVisibility": "auto",
+	    "workbench.activityBar.location": "top",
+	    "window.menuBarVisibility": "toggle",
+	    "window.commandCenter": false,
 	}
 
 ## Visual Studio Code | Configurações (Extensões):
