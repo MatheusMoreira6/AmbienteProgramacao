@@ -293,7 +293,7 @@
 	    ],
 	    "git.openRepositoryInParentFolders": "always",
 	    "github.copilot.editor.enableAutoCompletions": true,
-	    "window.customTitleBarVisibility": "auto",
+	    "window.customTitleBarVisibility": "never",
 	    "workbench.activityBar.location": "top",
 	    "window.menuBarVisibility": "toggle",
 	    "window.commandCenter": false,
