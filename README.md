@@ -22,9 +22,9 @@
 ####
     alias producao='ssh gen@44.212.150.104'
 ####
-	alias vpnup='hotspotshield connect BR && hotspotshield status'
+	alias vpnup='openvpn3 session-start --config /home/bracin/Genesis/Dourados/VPN_Dourados.ovpn && openvpn3 sessions-list'
 ####
-	alias vpndown='hotspotshield disconnect && hotspotshield status'
+	alias vpndown='openvpn3 session-manage --disconnect --all'
 
 ## Aplicações e Dependências
 
