@@ -169,7 +169,7 @@
     sudo apt-get install android-studio
 
 #### Comando para Executar
-    /opt/android-studio/bin/studio.sh
+    /opt/android-studio/bin/studio
 
 ## Visual Studio Code | Extensões (Ctrl+P):
 
