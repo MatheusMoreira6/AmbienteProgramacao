@@ -200,8 +200,14 @@
 #### Docker:
     ext install ms-azuretools.vscode-docker
 
+#### DotENV
+	ext install mikestead.dotenv
+
 #### Dracula Official:
     ext install dracula-theme.theme-dracula
+
+#### Error Lens
+	ext install usernamehw.errorlens
 
 #### Git Graph
     ext install mhutchie.git-graph
@@ -221,8 +227,14 @@
 #### Output Colorizer:
     ext install IBM.output-colorizer
 
+#### PHP Debug
+	ext install xdebug.php-debug
+
 #### PHP Intelephense:
     ext install bmewburn.vscode-intelephense-client
+
+#### PHP Namespace Resolver
+	ext install MehediDracula.php-namespace-resolver
 
 #### Portuguese (Brazil) Language Pack:
     ext install MS-CEINTL.vscode-language-pack-pt-BR
@@ -242,61 +254,65 @@
 	{
 	    "workbench.iconTheme": "a-file-icon-vscode",
 	    "workbench.colorTheme": "Dracula Theme",
+	    "workbench.activityBar.location": "top",
 	    "editor.bracketPairColorization.enabled": true,
-	    "editor.minimap.enabled": false,
 	    "editor.guides.bracketPairs": "active",
+	    "editor.linkedEditing": true,
+	    "editor.minimap.enabled": false,
+	    "editor.tabSize": 4,
+	    "editor.wordWrapColumn": 120,
 	    "editor.defaultFormatter": "esbenp.prettier-vscode",
-	    "diffEditor.ignoreTrimWhitespace": false,
+	    "diffEditor.ignoreTrimWhitespace": true,
 	    "explorer.confirmDelete": false,
 	    "files.autoSave": "onFocusChange",
 	    "files.encoding": "utf8",
-	    "git.confirmSync": false,
-	    "editor.tabSize": 4,
-	    "prettier.tabWidth": 4,
-	    "auto-close-tag.enableAutoCloseTag": true,
-	    "auto-close-tag.enableAutoCloseSelfClosingTag": true,
-	    "auto-close-tag.insertSpaceBeforeSelfClosingTag": false,
 	    "files.associations": {
-	        "*.php": "php"
+	        "*.php": "php",
+	        ".env*": "dotenv"
 	    },
 	    "[php]": {
 	        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
 	    },
-	    "auto-rename-tag.activationOnLanguage": [
-	        "html",
-	        "xml",
-	        "php",
-	        "javascript"
-	    ],
-	    "auto-close-tag.activationOnLanguage": [
-	        "xml",
-	        "php",
-	        "blade",
-	        "ejs",
-	        "jinja",
-	        "javascript",
-	        "javascriptreact",
-	        "typescript",
-	        "typescriptreact",
-	        "plaintext",
-	        "markdown",
-	        "vue",
-	        "liquid",
-	        "erb",
-	        "lang-cfml",
-	        "cfml",
-	        "HTML (Eex)"
-	    ],
-	    "gitlens.gitCommands.skipConfirmations": [
-	        "fetch:command",
-	        "switch:command"
-	    ],
+	    "git.confirmSync": false,
+	    "git.allowForcePush": true,
+	    "git.autofetchPeriod": 1800,
+	    "git.autofetch": "all",
 	    "git.openRepositoryInParentFolders": "always",
-	    "github.copilot.editor.enableAutoCompletions": true,
-	    "window.customTitleBarVisibility": "never",
-	    "workbench.activityBar.location": "top",
-	    "window.menuBarVisibility": "toggle",
+	    "gitlens.gitCommands.skipConfirmations": ["fetch:command", "switch:command"],
+	    "prettier.tabWidth": 4,
+	    "prettier.printWidth": 120,
 	    "window.commandCenter": false,
+	    "auto-close-tag.enableAutoCloseTag": true,
+	    "editor.tokenColorCustomizations": {
+	        "[*Light*]": {
+	            "textMateRules": [
+	                {
+	                    "scope": "ref.matchtext",
+	                    "settings": {
+	                        "foreground": "#000"
+	                    }
+	                }
+	            ]
+	        },
+	        "[*Dark*]": {
+	            "textMateRules": [
+	                {
+	                    "scope": "ref.matchtext",
+	                    "settings": {
+	                        "foreground": "#fff"
+	                    }
+	                }
+	            ]
+	        },
+	        "textMateRules": [
+	            {
+	                "scope": "keyword.other.dotenv",
+	                "settings": {
+	                    "foreground": "#FF000000"
+	                }
+	            }
+	        ]
+	    }
 	}
 
 ## Visual Studio Code | Configurações (Extensões):
