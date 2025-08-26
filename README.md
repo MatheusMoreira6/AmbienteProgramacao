@@ -221,11 +221,11 @@
 #### GitLens:
     ext install eamodio.gitlens
 
-#### IntelliCode:
-    ext install VisualStudioExptTeam.vscodeintellicode
-
 #### Output Colorizer:
     ext install IBM.output-colorizer
+
+#### Path Intellisense
+	ext install christian-kohler.path-intellisense
 
 #### PHP Debug
 	ext install xdebug.php-debug
@@ -235,9 +235,6 @@
 
 #### PHP Namespace Resolver
 	ext install MehediDracula.php-namespace-resolver
-
-#### Portuguese (Brazil) Language Pack:
-    ext install MS-CEINTL.vscode-language-pack-pt-BR
 
 #### Prettier - Code formatter:
     ext install esbenp.prettier-vscode
@@ -261,6 +258,8 @@
 	    "editor.minimap.enabled": false,
 	    "editor.tabSize": 4,
 	    "editor.wordWrapColumn": 120,
+	    "editor.fontLigatures": true,
+	    "editor.fontFamily": "'JetBrains Mono', monospace",
 	    "editor.defaultFormatter": "esbenp.prettier-vscode",
 	    "diffEditor.ignoreTrimWhitespace": true,
 	    "explorer.confirmDelete": false,
@@ -283,6 +282,15 @@
 	    "prettier.printWidth": 120,
 	    "window.commandCenter": false,
 	    "auto-close-tag.enableAutoCloseTag": true,
+	    "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+	    "auto-close-tag.insertSpaceBeforeSelfClosingTag": false,
+	    "bootstrapIntelliSense": {
+	        "enable": true,
+	        "bsVersion": "5.3.3",
+	        "useLocalFile": false,
+	        "cssFilePath": "",
+	        "languageSupport": ["html", "php"]
+	    },
 	    "editor.tokenColorCustomizations": {
 	        "[*Light*]": {
 	            "textMateRules": [
@@ -314,6 +322,7 @@
 	        ]
 	    }
 	}
+
 
 ## Visual Studio Code | Configurações (Extensões):
 
