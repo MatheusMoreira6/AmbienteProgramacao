@@ -84,7 +84,6 @@
     composer
 
 #### Trocar a Versão do Composer
-####
     composer self-update 2.4.4
 
 #### NodeJS
@@ -94,7 +93,14 @@
     npm install ssh2
 
 #### PostgreSQL
-    sudo apt install postgresql postgresql-contrib
+	apt install postgresql
+
+#### Repositório do PostgreSQL
+	sudo apt install -y postgresql-common
+####
+    sudo /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh
+####
+	sudo apt update
 
 #### PgAdmin
     curl -fsS https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /usr/share/keyrings/packages-pgadmin-org.gpg
