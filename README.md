@@ -12,17 +12,9 @@
 #### Comandos
     alias atualizar='sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean && sudo apt clean'
 ####
-    alias dockerup='cd ~/Genesis/dev-environment/ && docker compose up -d'
-#### 
-    alias dockerdown='cd ~/Genesis/dev-environment/ && docker compose down'
+    alias sshlocal='ssh user@192.168.100.18'
 ####
-    alias ecidade='cd ~/Genesis/equipe_dev/atualizacao-de-projetos/ && node atualizar.js'
-####
-    alias sshlocal='ssh genesis@192.168.100.18'
-####
-    alias producao='ssh gen@44.212.150.104'
-####
-	alias vpnup='openvpn3 session-start --config /home/bracin/Genesis/Dourados/VPN_Dourados.ovpn && openvpn3 sessions-list'
+	alias vpnup='openvpn3 session-start --config /home/user/VPN.ovpn && openvpn3 sessions-list'
 ####
 	alias vpndown='for session in $(openvpn3 sessions-list | grep "Path" | awk "{print \$2}"); do openvpn3 session-manage --disconnect --path "$session"; done'
 
