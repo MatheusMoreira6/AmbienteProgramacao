@@ -66,7 +66,7 @@
 ####
     docker-compose --version
 
-#### Compose
+#### Composer
     sudo apt update
 ####
     sudo apt install php-cli unzip
@@ -81,9 +81,11 @@
 ####
     sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 ####
-    composer self-update 2.4.4
-####
     composer
+
+#### Trocar a Versão do Composer
+####
+    composer self-update 2.4.4
 
 #### NodeJS
     sudo snap install node --classic
