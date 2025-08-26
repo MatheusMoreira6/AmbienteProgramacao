@@ -99,7 +99,7 @@
 ####
 	sudo apt update
 ####
-	apt install postgresql
+	sudo apt install postgresql
 
 
 #### PgAdmin
