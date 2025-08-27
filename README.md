@@ -158,11 +158,8 @@
 #### Atom Material Icons:
     ext install AtomMaterial.a-file-icon-vscode
 
-#### Auto Close Tag:
-    ext install formulahendry.auto-close-tag
-
-#### Auto Rename Tag:
-    ext install formulahendry.auto-rename-tag
+#### Auto Complete Tag:
+    ext install formulahendry.auto-complete-tag
 
 #### Bookmarks
 	ext install alefragnani.Bookmarks
@@ -194,12 +191,6 @@
 #### Git Graph
     ext install mhutchie.git-graph
 
-#### GitHub Copilot
-	ext install GitHub.copilot
-
-#### GitHub Copilot Chat
-	ext install GitHub.copilot-chat
-
 #### GitLens:
     ext install eamodio.gitlens
 
@@ -221,8 +212,14 @@
 #### Prettier - Code formatter:
     ext install esbenp.prettier-vscode
 
+#### Remote - SSH
+	ext install ms-vscode-remote.remote-ssh
+
 #### VS Code PDF
 	ext install tomoki1207.pdf
+
+#### Windsurf Plugin
+	ext install Codeium.codeium
 
 ## Visual Studio Code | Configurações (Ctrl + Shift + P):
 
